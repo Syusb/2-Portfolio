@@ -1,0 +1,33 @@
+header {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* nav a {
+  text-decoration: none;
+} */
+
+nav ul {
+  display: flex;
+  font-size: 30px;
+}
+button {
+  width: 200px;
+  background: teal;
+}
+button:hover {
+  background-color: rgb(0, 255, 0);
+}
+button:active {
+  box-shadow: 1px black;
+}
+h1 {
+  font-size: xx-large;
+}
