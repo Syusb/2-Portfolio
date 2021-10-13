@@ -1,17 +1,18 @@
 header {
   background-color: lightseagreen;
   display: flex;
-  padding: 1%;
   justify-content: space-between;
-}
-h1 {
-  font-size: xx-large;
+  padding: 1%;
 }
 
-nav a {
-  text-decoration: none;
+header nav a {
   color: white;
+  text-decoration: none;
 }
+
+/* nav a {
+  text-decoration: none;
+} */
 
 nav ul {
   display: flex;
@@ -26,4 +27,7 @@ button:hover {
 }
 button:active {
   box-shadow: 1px black;
+}
+h1 {
+  font-size: xx-large;
 }
