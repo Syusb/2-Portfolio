@@ -33,9 +33,18 @@ h1 {
 }
 h2 {
   text-align: center;
+  background-color: aquamarine;
 }
 div p {
-  background-color: rgb(0, 247, 255);
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 247, 255);
+}
+
+/* doesn't work */
+.divBlue {
+  background-color: rgb(0, 247, 255);
+}
+.divGray {
+  background-color: rgb(24, 24, 24);
 }
